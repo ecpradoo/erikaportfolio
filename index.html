@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Porfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5e486ced06.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>A Computer Science Student</p>
+                <h1>Hi, I'm <span>Erika Prado</span><br>a third year college student at <br>
+                    City College of Calamba</h1>
+            </div>
+        </div>
+        </div>
+        <!-- about -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/background.jpg" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Erika Prado, currently taking a four year course, a Computer Science program at City College of Calamba. A passionate student of computer science with a background in software development. In search of a hands-on internship where I can put my abilities to use and support creative projects.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('language')">Language</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Designing Web/App Interfaces</span></li>
+                                <li><span>Willingness to learn</span></li>
+                                <li><span>Problem-Solving Skills</span></li>
+                                <li><span>Computer Literate</span></li>
+                                <li><span>Flexibility</span></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2021-2024</span><br>Bachelor of Science in Computer Science (BSCS)</li>
+                                <li><span>2019-2021</span><br>Accountancy, Business and Management (ABM Strand)</li>
+                                <li><span>2015-2019</span><br>Luis Aguado National High School</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="language">
+                            <ul>
+                                <li><span>Filipino</span></li>
+                                <li><span>English</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Srvices</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Web design include developing the visual aspects and layout of a website, whereas coding entails transforming these designs into working websites using programming languages such as HTML, CSS, and JavaScript. Typically, specialized web developers convert the designs into code.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>UX design focuses on providing a smooth and meaningful user experience by understanding user needs, conducting research, and building intuitive interfaces, whereas UI design focuses on the visual and interactive parts of a product to produce aesthetically beautiful interfaces. </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>App design is a continuous process that includes user experience (UX) and user interface (UI) components. Designers provide ideas, identify solutions, develop the app's flow and structure, and make stylistic decisions ranging from colors to typefaces. Design decisions are based on user research and feedback. </p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- portfolio -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/pers2.png">
+                    <div class="layer">
+                        <h3>3D Digital</h3>
+                        <p>3D art is the process of making three-dimensional objects or images with a computer software or other digital media. It comprises three-dimensional modeling, animation, simulation, and so on. 3D game art is the creation of three-dimensional goods for video games.</p>
+                </div>
+                </div>
+                <div class="work">
+                    <img src="images/peach1.jpg">
+                    <div class="layer">
+                        <h3>Hand Drawing</h3>
+                        <p>Freehand drawing is the ability to draw something without using any instruments or other tools. We guide the drawing process only with our hands, relying on our observational abilities. We sketch a fruit by hand rather than tracing it or using equipment.</p>
+                </div>
+                </div>
+                <div class="work">
+                    <img src="images/antip2.png">
+                    <div class="layer">
+                        <h3>Anticipation Digital Drawing</h3>
+                        <p>Anticipation refers to the preparation for an action, such as a jump or a punch. For example, a figure will squat before driving his torso and legs into a leap. The stronger the anticipating motion, the more cartoonish and fluid the animation.</p>
+                </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+
+    <!-- contact -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> ekaaprado@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 09691642824</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://telegram.com/"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+                <a href="images/Prado CV.png" download class="btn btn2"<Download CV</a>
+            </div>
+            <div class="contact-right"></div>
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Messaage" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="copyright"></div>
+<p><i class="fa-solid fa-copyright"></i> 2024 Erika Prado. All rights reserved</p>
+</div>
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+           for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+
+           }
+           for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+           }
+           event.currentTarget.classList.add("active-link");
+           document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    
+</body>
+</html>
